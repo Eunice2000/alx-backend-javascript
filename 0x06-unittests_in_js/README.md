@@ -1,6 +1,5 @@
 # 0x06. Unittests in JS
 
-![](https://static1.smartbear.co/crossbrowsertesting/media/blog/cbt-blog-javascript-frameworks-3.png)
 
 ## Resources
 
