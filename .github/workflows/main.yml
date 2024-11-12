@@ -19,4 +19,6 @@ jobs:
           rules_file_name: '.zap/rules.tsv' 
           allow_issue_writing: true
           cmd_options: '-a'
+        env:
+          JAVA_OPTS: "-Xmx5g"  # Increases the Java heap size to 2 GB
 # Increases the Java heap size to 2 GB
