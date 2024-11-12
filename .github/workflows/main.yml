@@ -18,6 +18,7 @@ jobs:
           target: 'https://github.com/Eunice2000/alx-backend-javascript/test'
           rules_file_name: '.zap/rules.tsv' 
           allow_issue_writing: true
+          docker_run_opts: '--user root'
           cmd_options: '-a'
         env:
           JAVA_OPTS: "-Xmx2g"  # Increases the Java heap size to 2 GB
