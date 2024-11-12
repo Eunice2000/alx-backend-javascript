@@ -15,7 +15,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           docker_name: 'ghcr.io/zaproxy/zaproxy:stable'
-          target: 'https://github.com/Eunice2000/alx-backend-javascript/test'
+          target: 'https://github.com/Eunice2000/alx-backend-javascript'
           rules_file_name: '.zap/rules.tsv' 
           allow_issue_writing: true
           cmd_options: '-a'
